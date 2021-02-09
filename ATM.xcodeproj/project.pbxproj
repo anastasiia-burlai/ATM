@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CE31505025BDE4D200FE695C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31504F25BDE4D200FE695C /* main.swift */; };
+		CE31505825BDFC1600FE695C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31505725BDFC1600FE695C /* UserData.swift */; };
+		CE51E24425D083BA00443D50 /* NothernBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51E24325D083BA00443D50 /* NothernBank.swift */; };
+		CE51E24725D085D100443D50 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51E24625D085D100443D50 /* User.swift */; };
+		CE566D6B25D03A900039FCE4 /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE566D6A25D03A900039FCE4 /* ATM.swift */; };
+		CE566D6E25D03AF00039FCE4 /* BankApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE566D6D25D03AF00039FCE4 /* BankApi.swift */; };
+		CE566D7125D03B9C0039FCE4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE566D7025D03B9C0039FCE4 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		CE31504C25BDE4D200FE695C /* ATM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ATM; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31504F25BDE4D200FE695C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE31505725BDFC1600FE695C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CE51E24325D083BA00443D50 /* NothernBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothernBank.swift; sourceTree = "<group>"; };
+		CE51E24625D085D100443D50 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE566D6A25D03A900039FCE4 /* ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
+		CE566D6D25D03AF00039FCE4 /* BankApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankApi.swift; sourceTree = "<group>"; };
+		CE566D7025D03B9C0039FCE4 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				CE31504F25BDE4D200FE695C /* main.swift */,
+				CE31505725BDFC1600FE695C /* UserData.swift */,
+				CE51E24625D085D100443D50 /* User.swift */,
+				CE566D6A25D03A900039FCE4 /* ATM.swift */,
+				CE566D6D25D03AF00039FCE4 /* BankApi.swift */,
+				CE566D7025D03B9C0039FCE4 /* Enums.swift */,
+				CE51E24325D083BA00443D50 /* NothernBank.swift */,
 			);
 			path = ATM;
 			sourceTree = "<group>";
@@ -89,7 +107,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					CE31504B25BDE4D200FE695C = {
 						CreatedOnToolsVersion = 12.3;
@@ -119,7 +137,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE51E24425D083BA00443D50 /* NothernBank.swift in Sources */,
+				CE566D6B25D03A900039FCE4 /* ATM.swift in Sources */,
+				CE31505825BDFC1600FE695C /* UserData.swift in Sources */,
+				CE566D7125D03B9C0039FCE4 /* Enums.swift in Sources */,
+				CE566D6E25D03AF00039FCE4 /* BankApi.swift in Sources */,
 				CE31505025BDE4D200FE695C /* main.swift in Sources */,
+				CE51E24725D085D100443D50 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +268,7 @@
 		CE31505425BDE4D200FE695C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U74L4ST3DW;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -255,6 +280,7 @@
 		CE31505525BDE4D200FE695C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U74L4ST3DW;
 				ENABLE_HARDENED_RUNTIME = YES;
